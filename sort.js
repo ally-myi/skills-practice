@@ -1,3 +1,4 @@
+<script>
 // initializing counter and array
 var numbernames=0;
 var names = new Array();
@@ -12,3 +13,4 @@ function SortNames() {
   names.sort();
   document.theform.sorted.value=names.join("\n");
   }
+</script>
