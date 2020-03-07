@@ -1,16 +1,14 @@
-<script>
-// initializing counter and array
+// initialize the counter and the array
 var numbernames=0;
 var names = new Array();
 function SortNames() {
-  //get name from text field
-  thename=document.theform.newname.value;
-  //add to array
-  names[numbernames]=thename;
-  //increment counter
-  numbernames++;
-  //sort the array
-  names.sort();
-  document.theform.sorted.value=names.join("\n");
-  }
-</script>
+   // Get the name from the text field
+   thename=document.theform.newname.value;
+   // Add the name to the array
+   names[numbernames]=thename;
+   // Increment the counter
+   numbernames++;
+   // Sort the array
+   names.sort();
+   document.theform.sorted.value=names.join("\n");
+}
